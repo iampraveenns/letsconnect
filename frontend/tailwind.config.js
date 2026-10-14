@@ -11,16 +11,20 @@ module.exports = {
     themes: [
       {
         twitterdark: {
-          primary: "#1d9bf0",
-          secondary: "#16181c",
-          accent: "#1da1f2",
-          neutral: "#0f1419",
-          "base-100": "#000000",
-          "base-content": "#ffffff",
-          info: "#3abff8",
-          success: "#00ba7c",
-          warning: "#fbbc05",
-          error: "#e0245e",
+          primary: "#8B5CF6",       // Vibrant violet — main buttons
+          secondary: "#2563EB",    // Electric blue — secondary actions
+          accent: "#22D3EE",       // Cyan — highlights and interactions
+          neutral: "#14162B",      // Deep indigo — cards and surfaces
+
+          "base-100": "#080B18",   // Main application background
+          "base-200": "#0E1226",   // Panels and elevated sections
+          "base-300": "#1B2140",   // Borders and dividers
+          "base-content": "#F8FAFC", // Main text
+
+          info: "#38BDF8",         // Information messages
+          success: "#34D399",      // Success messages
+          warning: "#FBBF24",      // Warnings
+          error: "#FB7185",
         },
       },
     ],
